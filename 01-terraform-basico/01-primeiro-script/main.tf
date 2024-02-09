@@ -18,7 +18,7 @@ resource "aws_s3_bucket" "my-test-bucket" {
   acl    = "private"
 
   tags = {
-    Name        = "My bucket"
+    Name        = "My bucket 2"
     Environment = "Dev"
     Managedby   = "Terraform"
   }
